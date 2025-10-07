@@ -1,0 +1,10 @@
+#windows11,nvidia-drive=538.20,cuda=12.1,python=3.10.10
+#请根据自己的电脑驱动与cuda版本在pytorch官网选择合适的pytorch版本进行下载
+#pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+matplotlib
+datasets #Hugging Face，pytorch官方支持
+hf_xet
+spacy
